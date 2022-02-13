@@ -1,0 +1,48 @@
+english
+***********************The elements of the game: ********************** **********
+-A stock of 40 cards
+-2 players
+- a game table
+-Each card is identified by:
+- A number (from 1 to 10)
+ - One color (red, green, blue and yellow)
+
+***********Game progress: *********************************** *********
+-At the start of the game each player receives 4 cards, the table receives 1 (randomly).
+- Each player takes turns trying to place a card. If he can't, the program gives him a new card!
+-The game ends when one of the players has no more cards.
+
+*********************Rules of the game : ************************* ************
+-The card to be played by each player must respect one of the following rules:
+-It has the same number as the card on the table
+-It is the same color as the card on the table
+-If a player has no card in his deck that respects the above rule, the program adds a new card to him from the stock (randomly), and the player passes his turn.
+-If player 1 plays a number 2 card, the program must give 2 cards from the stock to player 2.
+-If player 1 plays a card number 7, the program must ask him to choose a new color (This color will be the color requested from player 2 thereafter).
+-If player 1 plays card number 1, the program must ask him to play again (as if player 2 passes his turn without doing anything).
+-If the stock is empty before the end of the round, all the cards must be reshuffled (apart from those in the hands of the 2 players and the one on the table) and create a new stock.
+
+
+français
+***********************Les éléments du jeu : ********************************
+-Un stock de 40 cartes 
+-2 joueurs 
+-une table de jeu
+-Chaque carte est identifiée par : 
+- Un numéro (de 1 à 10)
+ - Une couleur (rouge, vert, bleu et jaune)
+
+***********Déroulement du jeu : ********************************************
+-Au début de la partie chaque joueur reçoit 4 cartes, la table en reçoit 1 (aléatoirement).
+-À tour de rôle chaque joueur essaye de poser une carte. S'il ne peut pas, le programme lui en distribue une nouvelle carte ! 
+-Le jeu se termine lorsqu’un des joueurs n’a plus aucune carte.
+
+*********************Règles du jeu : *************************************
+-La carte à jouer par chaque joueur doit respecter une des règles suivantes :
+-Elle porte le même numéro que la carte posée sur la table
+-Elle porte la même couleur que la carte posée sur la table 
+-Si un joueur ne possède aucune carte dans son jeu qui respecte la règle ci-dessus, le programme lui rajoute une nouvelle carte depuis le stock (aléatoirement), et le joueur passe son tour. 
+-Si le joueur 1 joue une carte numéro 2, le programme doit donner 2 cartes du stock au joueur 2. 
+-Si le joueur 1 joue une carte numéro 7, le programme doit lui demander de choisir une nouvelle couleur (Cette couleur sera la couleur demandée au joueur 2 par la suite). 
+-Si le joueur 1 joue la carte numéro 1, le programme doit lui redemander de jouer encore une fois (comme si le joueur 2 passe son tour sans rien faire). 
+-Si le stock se vide avant la fin de la par9e, il faut remélanger toutes les cartes (appart celles dans les mains des 2 joueurs et celle sur la table) et créer un nouveau stock.
